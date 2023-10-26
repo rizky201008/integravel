@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('merek');
             $table->integer('kilo');
-            $table->integer('price');
+            $table->integer('harga');
+            $table->integer('harga_grosir');
             $table->integer('stok');
-            $table->integer('grosir');
             $table->timestamps();
         });
     }
